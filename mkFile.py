@@ -13,7 +13,7 @@ with open("ex.cpp", "r", encoding="utf-8") as tf:
 #         template = base_template.replace("{number}", str(number)).replace("{problem}", problem)
 #         with open(file_path, "w", encoding="utf-8") as f:
 #             f.write(template)
-number = 416
+number = 418
 folder_name = f"ABC{number}"
 os.makedirs(folder_name, exist_ok=True)
 
